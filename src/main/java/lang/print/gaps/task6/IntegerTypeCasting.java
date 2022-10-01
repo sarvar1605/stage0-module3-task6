@@ -2,7 +2,9 @@ package lang.print.gaps.task6;
 
 public class IntegerTypeCasting {
     public static void main(String[] args) {
-        float num=3.4F;
-        System.out.println((int)num);
+        long first = 1000;
+        int second=(int)first;
+        System.out.println(first);
+        System.out.println(second);
     }
 }
